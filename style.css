@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #003F91;
+  text-align: center;
+  text-decoration: none;
+}
+
+.globe {
+  width: 50px;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  font-family: 'Varela', sans-serif;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.map {
+  width: 1000px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 450px;
+  text-align: center;
+  position: relative;
+  right: 20%;
+}
+
+.map .map-image {
+  width: 100%;
+  height: auto;
+}
+
+.map .us-btn {
+  visibility: visible;
+  background-color: #003F91;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30%;
+  right: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.map .us-btn:hover {
+  background-color: #1f1695;
+  color: white;
+}
+
+.map .china-btn {
+  background-color: #003F91;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 40%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.map .china-btn:hover {
+  background-color: #1f1695;
+  color: white;
+}
+
+.map .germany-btn {
+  background-color: #003F91;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20%;
+  right: 49%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.map .germany-btn:hover {
+  background-color: #1f1695;
+  color: white;
+}
+
+.map .egypt-btn {
+  background-color: #003F91;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 40%;
+  right: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.map .egypt-btn:hover {
+  background-color: #1f1695;
+  color: white;
+}
+
+.map .india-btn {
+  background-color: #003F91;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 41%;
+  right: 23%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.map .india-btn:hover {
+  background-color: #1f1695;
+  color: white;
+}
+
+.us-info {
+  display: none;
+  background-color: #003F91;
+  color: white;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 80%;
+}
+
+.china-info {
+  display: none;
+  background-color: #003F91;
+  color: white;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.germany-info {
+  display: none;
+  background-color: #003F91;
+  color: white;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.egypt-info {
+  display: none;
+  background-color: #003F91;
+  color: white;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.india-info {
+  display: none;
+  background-color: #003F91;
+  color: white;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+p {
+  color: white;
+}
+
+#para{
+  color: #5DA9E9
+  font-family: 'Varela', sans-serif;
+}
+
+#head{
+  color:#003F91;
+  font-family: 'Varela', sans-serif;
+  text-align: center;
+}
+
+.toolBarButton {
+  background-color: #3DA35D;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+.map-tooBar{
+  display:flex;
+}
+
+.tool-bar{
+  /* position: relative; */
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  /* align-items: flex-start; */
+  padding: 0px;
+  transform: rotate(180deg);
+}
+
+.toolBarButton{
+  writing-mode: vertical-lr;
+}
+
+/* .map-toolBar{
+  display: flex;
+  flex-direction: row;
+} */
+
+.about {
+  font-family: 'Varela', sans-serif;
+  font-size: 50px;
+}
