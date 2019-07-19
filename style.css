@@ -1,11 +1,17 @@
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #4F5D75;
+font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+font-weight: 200;
+line-height: 1.2em;
+letter-spacing: 5px;;
 }
 
 header {
-  background-color: #003F91;
+  background-color: #EF8354;
   text-align: center;
   text-decoration: none;
 }
@@ -13,239 +19,361 @@ header {
 .globe {
   width: 50px;
   height: auto;
+  background-color: #EF8354;
 }
 
 h1 {
-  color: white;
-  font-family: 'Varela', sans-serif;
+  color: #2D3142;
+  font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+  font-size: 110px;
+  font-weight: 200;
   letter-spacing: 5px;
   text-decoration: none;
-}
-
-.map {
-  width: 1000px;
-  height: auto;
-  margin-top: 50px;
-  margin-left: 450px;
-  text-align: center;
-  position: relative;
-  right: 20%;
-}
-
-.map .map-image {
-  width: 100%;
-  height: auto;
-}
-
-.map .us-btn {
-  visibility: visible;
-  background-color: #003F91;
-  color: white;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 30%;
-  right: 85%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 10px;
-  cursor: pointer;
-}
-
-.map .us-btn:hover {
-  background-color: #1f1695;
-  color: white;
-}
-
-.map .china-btn {
-  background-color: #003F91;
-  color: white;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 40%;
-  right: 15%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 10px;
-  cursor: pointer;
-}
-
-.map .china-btn:hover {
-  background-color: #1f1695;
-  color: white;
-}
-
-.map .germany-btn {
-  background-color: #003F91;
-  color: white;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 20%;
-  right: 49%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 10px;
-  cursor: pointer;
-}
-
-.map .germany-btn:hover {
-  background-color: #1f1695;
-  color: white;
-}
-
-.map .egypt-btn {
-  background-color: #003F91;
-  color: white;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 40%;
-  right: 42%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 10px;
-  cursor: pointer;
-}
-
-.map .egypt-btn:hover {
-  background-color: #1f1695;
-  color: white;
-}
-
-.map .india-btn {
-  background-color: #003F91;
-  color: white;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 41%;
-  right: 23%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 10px;
-  cursor: pointer;
-}
-
-.map .india-btn:hover {
-  background-color: #1f1695;
-  color: white;
-}
-
-.us-info {
-  display: none;
-  background-color: #003F91;
-  color: white;
-  width: 200px;
-  height: 150px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 80%;
-}
-
-.china-info {
-  display: none;
-  background-color: #003F91;
-  color: white;
-  width: 200px;
-  height: 150px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-}
-
-.germany-info {
-  display: none;
-  background-color: #003F91;
-  color: white;
-  width: 200px;
-  height: 150px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-}
-
-.egypt-info {
-  display: none;
-  background-color: #003F91;
-  color: white;
-  width: 200px;
-  height: 150px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-}
-
-.india-info {
-  display: none;
-  background-color: #003F91;
-  color: white;
-  width: 200px;
-  height: 150px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-}
-
-p {
-  color: white;
-}
-
-#para{
-  color: #5DA9E9
-  font-family: 'Varela', sans-serif;
+  background-color: #EF8354;
 }
 
 #head{
-  color:#003F91;
-  font-family: 'Varela', sans-serif;
-  text-align: center;
+color: #2D3142;
+background-color: #4F5D75;
+}
+
+.map {
+width: 1000px;
+height: auto;
+margin-top: 50px;
+margin-left: 450px;
+text-align: center;
+position: absolute;
+right: 20%;
+
+
+}
+
+/* #map-background{
+background-color: #A6B1E1;
+} */
+
+.map-image{
+color: white;
+}
+
+.map .map-image {
+width: 100%;
+height: auto;
+
+}
+
+.map .us-btn {
+visibility: visible;
+background-color: #003F91;
+color: white;
+position: absolute;
+width: 20px;
+height: 20px;
+top: 30%;
+right: 85%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-size: 10px;
+cursor: pointer;
+}
+
+.map .us-btn:hover {
+background-color: #4c9bff;
+color: white;
+}
+
+.map .china-btn {
+background-color: #003F91;
+color: white;
+position: absolute;
+width: 20px;
+height: 20px;
+top: 39%;
+right: 15%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-size: 10px;
+cursor: pointer;
+}
+
+.map .china-btn:hover {
+background-color: #4c9bff;
+color: white;
+}
+
+.map .germany-btn {
+background-color: #003F91;
+color: white;
+position: absolute;
+width: 20px;
+height: 20px;
+top: 20%;
+right: 49%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-size: 10px;
+cursor: pointer;
+}
+
+.map .germany-btn:hover {
+background-color: #4c9bff;
+color: white;
+}
+
+.map .egypt-btn {
+background-color: #003F91;
+color: white;
+position: absolute;
+width: 20px;
+height: 20px;
+top: 40%;
+right: 42%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-size: 10px;
+cursor: pointer;
+}
+
+.map .egypt-btn:hover {
+background-color: #4c9bff;
+color: white;
+}
+
+.map .india-btn {
+background-color: #003F91;
+color: white;
+position: absolute;
+width: 20px;
+height: 20px;
+top: 41%;
+right: 24%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-size: 10px;
+cursor: pointer;
+}
+
+.map .india-btn:hover {
+background-color: #4c9bff;
+color: white;
+}
+
+.us-info {
+display: none;
+background-color: #003F91;
+color: white;
+width: 200px;
+height: 150px;
+text-align: center;
+position: absolute;
+top: 32%;
+right: 77%;
+padding: 5px;
+}
+
+.china-info {
+display: none;
+background-color: #003F91;
+color: white;
+width: 200px;
+height: 150px;
+text-align: center;
+position: absolute;
+top: 42%;
+right: 6%;
+padding: 5px;
+}
+
+.germany-info {
+display: none;
+background-color: #003F91;
+color: white;
+width: 200px;
+height: 150px;
+text-align: center;
+position: absolute;
+top: 22%;
+right: 41%;
+padding: 5px;
+}
+
+.egypt-info {
+display: none;
+background-color: #003F91;
+color: white;
+width: 200px;
+height: 150px;
+text-align: center;
+position: absolute;
+top: 42%;
+right: 34%;
+padding: 5px;
+}
+
+.india-info {
+display: none;
+background-color: #003F91;
+color: white;
+width: 200px;
+height: 150px;
+text-align: center;
+position: absolute;
+top: 43%;
+right: 15%;
+padding: 5px;
+}
+
+p {
+color: white;
+}
+
+#para{
+color: #5DA9E9
+font-family: 'Varela', sans-serif;
+}
+
+#head{
+color:#003F91;
+font-family: 'Varela', sans-serif;
+text-align: center;
 }
 
 .toolBarButton {
-  background-color: #3DA35D;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  font-size: 25px;
-  font-family:'Montserrat', sans-serif;
+background-color: #EF8354;
+padding-bottom: 10px;
+padding-top: 10px;
+padding:10px;
+font-size: 25px;
+font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+font-weight: 200;
+letter-spacing: 5px;
+border-top: 1px solid #2D3142;
 }
 a:link{
-  text-decoration: none;
+text-decoration: none;
 }
 a:visited{
-  color: white;
+color: #2D3142;
 }
+a {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+a:focus {
+text-decoration: none;
+}
+a:hover, a:active {
+text-decoration: none;
+}
+
 .map-tooBar{
-  display:flex;
+display:flex;
 }
 
 .tool-bar{
-  /* position: relative; */
-  float: left;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: column;
-  /* align-items: flex-start; */
-  padding: 0px;
-  transform: rotate(180deg);
+float: left;
+display: flex;
+flex-flow: column;
+padding: 0px;
+transform: rotate(180deg);
 }
 
 .toolBarButton{
-  writing-mode: vertical-lr;
+writing-mode: vertical-lr;
 }
 
-/* .map-toolBar{
-  display: flex;
-  flex-direction: row;
-} */
+.total-box{
+display:flex;
+}
+.about-box{
 
-.about {
-  font-family: 'Varela', sans-serif;
-  font-size: 50px;
+padding: 50px;
+padding-right: 100px;
+background-color: #A6B1E1;
+margin-left: 75px;
+margin-right: 75px;
+margin-top: 75px;
+display: inline;
+/* text-align: center; */
+}
+.aboutHead{
+background-color: #A6B1E1;
+color: #2D3142;
+font-size: 95px;
+}
+.aboutPara{
+background-color: #A6B1E1;
+color: #2D3142;
+font-weight: normal;
+font-size: 25px;
+}
+.about-buttons{
+display:flex;
+}
+#clothing-tool{
+margin-bottom: 685px;
+}
+
+#container-tool{
+margin-bottom: 110px;
+}
+
+#bag-tool{
+margin-bottom: 500px;
+}
+
+.link-total{
+padding: 1px;
+display: flex;
+justify-content: center;
+}
+
+.link-head{
+display: grid;
+}
+
+
+.link-head{
+display: inline-block;
+background-color: #A6B1E1;
+margin-top: 75px;
+margin-right: 75px;
+margin-left: 75px;
+margin-bottom: 40px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.link-box-total{
+display:flex;
+justify-content: center;
+justify-content: space-around;
+}
+.link-img{
+height: 300px;
+width: 300px;
+object-fit: cover;
+background-color: #A6B1E1;
+}
+
+.link-box{
+border: 30px solid #A6B1E1;
+display: inline-block;
+margin-right: 30px;
+margin-left: 30px;
+background-color: #A6B1E1;
+}
+/* a: hover{
+  background-color: #2D3142;
+  color: #EF8354;
+} */
+a:hover {
+  background-color: #2D3142;
+  color: #EF8354;
 }

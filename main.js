@@ -4,6 +4,7 @@ var germanyBtn = $(".germany-btn");
 var egyptBtn = $(".egypt-btn");
 var indiaBtn = $(".india-btn");
 
+
 usBtn.on("click", toggleUSInfo);
 chinaBtn.on("click", toggleChinaInfo);
 germanyBtn.on("click", toggleGermanyInfo);
@@ -12,51 +13,25 @@ indiaBtn.on("click", toggleIndiaInfo);
 
 function toggleUSInfo() {
   var usBox = $(".us-info");
-  console.log(usBox.style);
-  // var displaySetting = usBox.style.display;
-  // if (displaySetting == "block") {
-  //   usBox.style.display == "none";
-  // } else {
-  //   usBox.style.display = "block";
-  // }
+  usBox.toggle();
 }
 
 function toggleChinaInfo() {
   var chinaBox = $(".china-info");
-  var displaySetting = chinaBox.style.display;
-  if (displaySetting == "block") {
-    usBox.style.display == "none";
-  } else {
-    usBox.style.display = "block";
-  }
+  chinaBox.toggle();
 }
 
 function toggleGermanyInfo() {
   var germanyBox = $(".germany-info");
-  var displaySetting = germanyBox.style.display;
-  if (displaySetting == "block") {
-    usBox.style.display == "none";
-  } else {
-    usBox.style.display = "block";
-  }
+  germanyBox.toggle();
 }
 
 function toggleEgyptInfo() {
   var egyptBox = $(".egypt-info");
-  var displaySetting = egyptBox.style.display;
-  if (displaySetting == "block") {
-    usBox.style.display == "none";
-  } else {
-    usBox.style.display = "block";
-  }
+  egyptBox.toggle();
 }
 
 function toggleIndiaInfo() {
   var indiaBox = $(".india-info");
-  var displaySetting = indiaBox.style.display;
-  if (displaySetting == "block") {
-    usBox.style.display == "none";
-  } else {
-    usBox.style.display = "block";
-  }
+  indiaBox.toggle();
 }
